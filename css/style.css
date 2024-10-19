@@ -152,6 +152,27 @@ body {
    margin: 150px auto;
 }
 
+.assortment {
+   margin-bottom: 150px;
+}
+.assortment__list {
+   display: flex;
+   justify-content: center;
+   gap: 0 40px;
+   flex-wrap: wrap;
+
+   text-align: center;
+}
+.assortment__img {
+   width: 208px;
+   height: 208px;
+}
+.assortment__name {
+   padding-top: 10px;
+   font-size: 24px;
+   font-weight: 400;
+   font-family: "Cormorant", serif;
+}
 @media (max-width: 1000px) {
    .user-actions__item-search {
       margin-left: 30px;
