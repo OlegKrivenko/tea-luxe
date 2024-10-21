@@ -164,8 +164,9 @@ body {
    text-align: center;
 }
 .assortment__img {
-   width: 208px;
-   height: 208px;
+   max-width: 208px;
+   max-height: 208px;
+   width: 100%;
 }
 .assortment__name {
    padding-top: 10px;
@@ -188,6 +189,14 @@ body {
    }
    .blockquote__text {
       margin: 120px auto 135px;
+   }
+
+   .assortment {
+      margin-bottom: 120px;
+   }
+   .assortment__list {
+      gap: 0;
+      flex-wrap: nowrap;
    }
 }
 
@@ -269,6 +278,11 @@ body {
    }
    .blockquote__text {
       max-width: 640px;
+   }
+
+   .assortment__list {
+      flex-wrap: wrap;
+      gap: 0 6px;
    }
 }
 
