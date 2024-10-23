@@ -282,7 +282,6 @@ body {
 
    .assortment__list {
       flex-wrap: wrap;
-      gap: 0 6px;
    }
 }
 
@@ -352,5 +351,8 @@ body {
       max-width: 340px;
       margin-top: 70px;
       margin-bottom: 80px;
+   }
+   .assortment__img {
+      max-width: 170px;
    }
 }
