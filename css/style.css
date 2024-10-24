@@ -24,6 +24,15 @@ ul {
    list-style: none;
 }
 
+.title {
+   text-align: center;
+   margin-bottom: 60px;
+
+   font-family: "Cormorant", serif;
+   font-size: 40px;
+   font-weight: 400;
+}
+
 body {
    color: #121618;
    font-family: "Open Sans", sans-serif;
@@ -114,7 +123,7 @@ body {
 .top {
    background-image: url(../images/top_bg.jpeg);
    background-repeat: no-repeat;
-   background-position: top left;
+   background-position: top center;
 }
 
 .top__inner {
@@ -174,7 +183,40 @@ body {
    font-weight: 400;
    font-family: "Cormorant", serif;
 }
+
+.reviews {
+   padding: 60px 0;
+   background-color: rgb(247, 242, 234);
+}
+.reviews__list {
+   display: flex;
+   gap: 0 26px;
+   justify-content: center;
+}
+.reviews__item {
+   flex-basis: 280px;
+}
+
+.reviews__text {
+   font-size: 16px;
+   font-style: italic;
+   margin-bottom: 10px;
+}
+.reviews__name {
+   font-weight: 600;
+   line-height: 27px;
+}
+
+@media (max-width: 1600px) {
+   .top {
+      background-position: top left;
+   }
+}
+
 @media (max-width: 1000px) {
+   .title {
+      margin-bottom: 30px;
+   }
    .user-actions__item-search {
       margin-left: 30px;
    }
@@ -197,6 +239,10 @@ body {
    .assortment__list {
       gap: 0;
       flex-wrap: nowrap;
+   }
+
+   .reviews__item:last-child {
+      display: none;
    }
 }
 
@@ -283,6 +329,14 @@ body {
    .assortment__list {
       flex-wrap: wrap;
    }
+
+   .reviews__list {
+      flex-wrap: wrap;
+      gap: 30px 76px;
+   }
+   .reviews__item:last-child {
+      display: block;
+   }
 }
 
 @media (max-width: 680px) {
@@ -322,9 +376,26 @@ body {
    .menu__list {
       width: 360px;
    }
+   .assortment {
+      margin-bottom: 60px;
+   }
+
+   .reviews {
+      padding: 50px 0;
+   }
+   .reviews__list {
+      gap: 30px 20px;
+   }
+   .reviews__item {
+      flex-basis: 220px;
+   }
 }
 
 @media (max-width: 360px) {
+   .title {
+      margin-bottom: 10px;
+      font-size: 24px;
+   }
    .logo {
       margin-right: 50px;
    }
@@ -352,7 +423,19 @@ body {
       margin-top: 70px;
       margin-bottom: 80px;
    }
+   .assortment {
+      margin-bottom: 80px;
+   }
    .assortment__img {
       max-width: 170px;
+   }
+   .reviews__item {
+      flex-basis: 100%;
+   }
+   .reviews__item:nth-child(n + 3) {
+      display: none;
+   }
+   .reviews .title {
+      margin-bottom: 30px;
    }
 }
