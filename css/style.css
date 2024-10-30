@@ -260,6 +260,31 @@ body {
    width: 152px;
 }
 
+.mailing-list {
+   padding: 100px 0;
+   background-color: rgb(247, 242, 234);
+   background-image: url(../images/mailing_bg.png);
+   background-repeat: no-repeat;
+   background-position: bottom right;
+}
+.mailing-list__title {
+   text-align-last: left;
+   margin-bottom: 50px;
+}
+.mailing-list__inner {
+   display: flex;
+   gap: 60px 40px;
+}
+.mailing-list__text {
+   line-height: 1.5;
+}
+.mailing-list__form {
+}
+.mailing-list__email {
+}
+.mailing-list__btn {
+}
+
 @media (max-width: 1600px) {
    .top {
       background-position: top left;
