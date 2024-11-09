@@ -279,9 +279,32 @@ body {
    line-height: 1.5;
 }
 .mailing-list__form {
+   display: flex;
+   flex-wrap: wrap;
 }
 .mailing-list__email {
+   border: none;
+   border-bottom: 1px solid rgb(184, 181, 139);
+   background-color: transparent;
+   padding: 3px 15px;
+   width: 440px;
+   margin-right: 25px;
+   font-family: "Open Sans", sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 150%;
+   color: #121618;
 }
+.mailing-list__email::placeholder {
+   font-family: "Open Sans", sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 150%;
+   color: rgb(184, 181, 139);
+}
+
 .mailing-list__btn {
 }
 
