@@ -644,11 +644,22 @@ body {
       gap: 30px;
    }
    .mailing-list__text {
+      flex-basis: 100%;
       font-size: 13px;
    }
    .mailing-list__email {
       width: 323px;
       margin-right: 20px;
+   }
+
+   .prioritise {
+      padding: 60px 0;
+   }
+   .prioritise__title--first {
+      margin-bottom: 30px;
+   }
+   .prioritise__list {
+      gap: 50px;
    }
 }
 
@@ -698,5 +709,34 @@ body {
    }
    .reviews .title {
       margin-bottom: 30px;
+   }
+
+   .main-blog {
+      padding: 50 px 0;
+   }
+   .main-blog__title {
+      margin-bottom: 30px;
+   }
+   .main-blog__list li:nth-last-child(-n + 2) {
+      display: none;
+   }
+   .main-blog__item {
+      flex-direction: column;
+      align-items: center;
+      padding: 0 35px;
+   }
+   .main-blog__item-img {
+      max-width: 270px;
+      margin-bottom: 10px;
+   }
+   .main-blog__item-title {
+      margin-bottom: 5px;
+   }
+   .main-blog__item-author {
+      margin-top: 0;
+      margin-bottom: 10px;
+   }
+   .main-blog__link {
+      margin-top: 30px;
    }
 }
