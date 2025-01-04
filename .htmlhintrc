@@ -1,0 +1,12 @@
+{
+  "attr-order": [
+    "class",
+    "id",
+    "name",
+    "src",
+    "alt",
+    "title",
+    "href",
+    "style"
+  ]
+}
