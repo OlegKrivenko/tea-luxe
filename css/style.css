@@ -283,6 +283,7 @@ body {
    display: flex;
    flex-wrap: wrap;
    flex-basis: 580px;
+   align-items: flex-end;
 }
 .mailing-list__email {
    border: none;
@@ -731,6 +732,7 @@ body {
    }
    .main-blog__item-title {
       margin-bottom: 5px;
+      min-height: auto;
    }
    .main-blog__item-author {
       margin-top: 0;
@@ -738,5 +740,31 @@ body {
    }
    .main-blog__link {
       margin-top: 30px;
+   }
+
+   .mailing-list__title {
+      margin-bottom: 30px;
+   }
+   .mailing-list__email {
+      width: 203px;
+   }
+
+   .prioritise {
+      padding: 50px 0;
+   }
+   .prioritise__title--first {
+      margin-bottom: 50px;
+   }
+   .prioritise__list {
+      gap: 40px;
+   }
+   .prioritise__title {
+      font-size: 20px;
+   }
+   .prioritise__text {
+      text-transform: uppercase;
+      font-size: 10px;
+      margin-bottom: 10px;
+      font-weight: 400;
    }
 }
