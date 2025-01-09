@@ -8,6 +8,23 @@ html {
    box-sizing: inherit;
 }
 
+/* для того щоб прибити футер до низу */
+html,
+body {
+   height: 100%;
+}
+
+.wrapper {
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.main {
+   flex-grow: 1;
+}
+/* для того щоб прибити футер до низу */
+
 a {
    text-decoration: none;
    color: inherit;
