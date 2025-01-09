@@ -962,4 +962,38 @@ body {
       margin-bottom: 10px;
       font-weight: 400;
    }
+
+   .footer__company {
+      margin-right: 0;
+      padding-right: 30px;
+   }
+   .footer__nav {
+      flex-wrap: wrap;
+      gap: 40px 28px;
+   }
+   .footer__nav-logo {
+      margin-right: 0;
+   }
+   .footer__bottom {
+      justify-content: space-between;
+   }
+   .fotter__copy {
+      margin-right: 0;
+   }
+   .footer__inner {
+      margin-bottom: 50px;
+      gap: 0;
+   }
+   .footer__blockquote-text {
+      margin-top: 40px;
+   }
+   .footer__contacts {
+      margin-top: 40px;
+   }
+   .footer__contacts-title {
+      margin-bottom: 10px;
+   }
+   .footer__contacts-text {
+      margin-bottom: 10px;
+   }
 }
